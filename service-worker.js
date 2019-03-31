@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/realstep-studios/precache-manifest.90e1945da4ec84b4d0aa0fe33e3bb0a9.js"
+  "/realstep-website/precache-manifest.98480a02e182486cda8a9b9a4cead29f.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/realstep-studios/index.html", {
+workbox.routing.registerNavigationRoute("/realstep-website/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
