@@ -2,7 +2,7 @@
   "name": "realstep",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://realstep-studios.github.io/Realstep-Website/",
+  "homepage": "https://realstep.co.uk",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
