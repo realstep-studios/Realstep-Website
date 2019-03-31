@@ -13,9 +13,9 @@ export default class Projects extends Component {
         <main>
             <h1>Projects Page</h1>
             <p>
-              Hereess ourse bueateallses projestess that wee workws verryeess hards ons
-              <br/>
-              Please enjoyses
+              Check out our projects below. You can interact with them on the github pages and also look at prototypes of each project.
+              <br/><br/>
+              <i>Psssst I would recommend TapZ </i>
             </p>
 
             <Card icon="server" title="Wills Media Server" butt="WMS Project Page" path="/projects/WillsMediaServer"/>
