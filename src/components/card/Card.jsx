@@ -12,7 +12,7 @@ export default class Card extends Component {
                 <Icon icon={ this.props.icon } brand={ this.props.brand }/>
                 
                 <h3>{ this.props.title }</h3>
-                <p>{ this.props.children }</p>
+                <span>{ this.props.children }</span>
 
                 { this.props.butt &&
                     <>

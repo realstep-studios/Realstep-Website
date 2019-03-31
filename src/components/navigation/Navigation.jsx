@@ -10,12 +10,13 @@ export default class Navigation extends Component {
     // Close the dropdown menu if the user clicks outside of it
     window.onclick = function(event) {
       if (!event.target.matches('.dropBtn')) {
-        var dropdowns = document.getElementsByClassName("dropdownContent");
-        var i;
+        let dropdowns = document.getElementsByClassName("dropdownContent")
+        let i
+        
         for (i = 0; i < dropdowns.length; i++) {
-          var openDropdown = dropdowns[i];
+          let openDropdown = dropdowns[i]
           if (openDropdown.classList.contains('show')) {
-            openDropdown.classList.remove('show');
+            openDropdown.classList.remove('show')
           }
         }
       }
@@ -27,9 +28,9 @@ export default class Navigation extends Component {
       <nav className="navigation">
         <Link as="a" to="/">Realstep</Link>
 
-        <section class = "dropdown">
-        <button onClick = {this.projectsDropdown} class = "dropBtn">Projects</button>
-          <section id = "projectsDropdown" class = "dropdownContent">
+        <section className="dropdown">
+        <a onClick={ this.projectsDropdown } className="dropBtn">Projects</a>
+          <section id="projectsDropdown" className="dropdownContent">
             <Link as="a" to="/projects/WillsMediaServer">Wills Media Server</Link>
             <Link as="a" to="/projects/TapZ-Incremental">TapZ</Link>
             <Link as="a" to="/projects/Seneca-Dark-Mode">Seneca Dark Mode</Link>
