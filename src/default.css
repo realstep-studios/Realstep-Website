@@ -12,6 +12,31 @@ html, body {
     box-sizing: border-box;
 }
 
+/* Main Styled Elements */
+
+code {
+    background-color: #ECEFF1;
+    padding: 1em;
+    margin: 1em;
+    display: block;
+    border-radius: 4px;
+    word-wrap: break-word;
+}
+
+code .tag {
+    color: #9E9E9E;
+}
+
+code .element {
+    color: #2196F3;
+}
+
+code .attribute {
+    color: #f44336;
+}
+
+/* Common styles */
+
 main h1 {
     text-align: center;
 }
