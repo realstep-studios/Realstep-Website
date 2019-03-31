@@ -16,9 +16,9 @@ export default class Home extends Component {
             <br/>
             on here you will eba bebles to findes all of our best projects andhardses works
           </p>
-          <Card title="Projects" body="Herease uses can findes alles foi good pojeees=fss and plays us good gamess" butt="Projects" icon="gamepad" buttLink="/projects"/>
-          <Card title="About Us" body="We is good company, pay uus doo stuff pls. we get good advertismentes. pls emplyyye us" butt="About" icon="users" buttLink="/about"/>
-          <Card title="Contact Us" body="hear u can msgeage usses and get usses to doos syah voek for good moneieees" butt="Contact" icon="at" buttLink="/contact"/>
+          <Card title="Projects" body="Herease uses can findes alles foi good pojeees=fss and plays us good gamess" butt="Projects" icon="gamepad" path="/projects"/>
+          <Card title="About Us" body="We is good company, pay uus doo stuff pls. we get good advertismentes. pls emplyyye us" butt="About" icon="users" path="/about"/>
+          <Card title="Contact Us" body="hear u can msgeage usses and get usses to doos syah voek for good moneieees" butt="Contact" icon="at" path="/contact"/>
         </main>
         <Footer/>
       </>
