@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import Navigation from "../components/navigation/Navigation"
 import Card from "../components/card/Card"
 import Footer from "../components/footer/Footer"
+import Parallax from "../components/parallax/Parallax"
 
 export default class Home extends Component {
   render() {
