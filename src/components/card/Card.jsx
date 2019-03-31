@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { Link } from "react-router-dom"
 
+import Icon from "../icon/Icon"
+
 import "./card.css"
 
 export default class Card extends Component {
@@ -9,7 +11,7 @@ export default class Card extends Component {
             <section className="card">
                 <span className="fa-stack fa-4x">
                     <i className="fas fa-square fa-stack-2x"></i>
-                    <i className={ "icon fa fa-stack-1x fa-inverse fa-" + this.props.icon }></i>
+                    <Icon icon={ this.props.icon } brand={ this.props.brand }/>
                 </span>
                 <h3>{ this.props.title }</h3>
                 <p>{ this.props.body }</p>
