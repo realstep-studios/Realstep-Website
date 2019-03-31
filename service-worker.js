@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Realstep-Website/precache-manifest.72ffe2b43be8e47e09a704650edebc2f.js"
+  "/Realstep-Website/precache-manifest.823928d6c3ef754d6c34df43b4e8df5a.js"
 );
 
 workbox.clientsClaim();
