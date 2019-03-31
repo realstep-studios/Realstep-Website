@@ -13,21 +13,21 @@ export default class Home extends Component {
           <h1>Home Page</h1>
 
           <p>
-            Helloses and welcomes to urses very nice websites
+            Hello and welcome to our website!
             <br/>
-            on here you will eba bebles to findes all of our best projects andhardses works
+            Here you will be able to explore all of our ongoing projects.
           </p>
           
           <Card title="Projects" butt="Projects" icon="gamepad" path="/projects">
-            <p>Herease uses can findes alles foi good pojeees=fss and plays us good gamess</p>
+            <p>Here are some of our projects including the fan favourite.... TapZ!!!</p>
           </Card>
           
           <Card title="About Us" butt="About" icon="users" path="/about">
-            <p>We is good company, pay uus doo stuff pls. we get good advertismentes. pls emplyyye us</p>
+            <p>We are a small group of peoples. Click below to find out more</p>
           </Card>
           
           <Card title="Contact Us" butt="Contact" icon="at" path="/contact">
-            <p>hear u can msgeage usses and get usses to doos syah voek for good moneieees</p>
+            <p>Want to contact us for any reason? Make sure to e-mail us.</p>
           </Card>
 
         </main>
