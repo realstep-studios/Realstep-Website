@@ -1,13 +1,13 @@
 {
-  "main.css": "/Realstep-Website/static/css/main.92942f11.chunk.css",
-  "main.js": "/Realstep-Website/static/js/main.9a43374e.chunk.js",
-  "main.js.map": "/Realstep-Website/static/js/main.9a43374e.chunk.js.map",
-  "runtime~main.js": "/Realstep-Website/static/js/runtime~main.7b24ab95.js",
-  "runtime~main.js.map": "/Realstep-Website/static/js/runtime~main.7b24ab95.js.map",
-  "static/js/2.f611df06.chunk.js": "/Realstep-Website/static/js/2.f611df06.chunk.js",
-  "static/js/2.f611df06.chunk.js.map": "/Realstep-Website/static/js/2.f611df06.chunk.js.map",
-  "index.html": "/Realstep-Website/index.html",
-  "precache-manifest.e7e21275ee2522b3b16e54a6d2a3361c.js": "/Realstep-Website/precache-manifest.e7e21275ee2522b3b16e54a6d2a3361c.js",
-  "service-worker.js": "/Realstep-Website/service-worker.js",
-  "static/css/main.92942f11.chunk.css.map": "/Realstep-Website/static/css/main.92942f11.chunk.css.map"
+  "main.css": "/static/css/main.92942f11.chunk.css",
+  "main.js": "/static/js/main.9a43374e.chunk.js",
+  "main.js.map": "/static/js/main.9a43374e.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+  "static/js/2.f611df06.chunk.js": "/static/js/2.f611df06.chunk.js",
+  "static/js/2.f611df06.chunk.js.map": "/static/js/2.f611df06.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.25203fb182abd0588b17282dcd883433.js": "/precache-manifest.25203fb182abd0588b17282dcd883433.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.92942f11.chunk.css.map": "/static/css/main.92942f11.chunk.css.map"
 }
