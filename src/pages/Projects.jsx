@@ -17,10 +17,14 @@ export default class Projects extends Component {
               <br/>
               Please enjoyses
             </p>
+
             <Card icon="server" title="Wills Media Server" butt="WMS Project Page" path="/projects/WillsMediaServer"/>
+            
             <Card icon="gamepad" title="TapZ Incremental" butt="TapZ Project Page" path="/projects/TapZ-Incremental"/>
+            
             <Card icon="adjust" title="Seneca Dark Mode" butt="SDM Project Page" path="/projects/Seneca-Dark-Mode"/>
         </main>
+        
         <Footer/>
       </>
     )
