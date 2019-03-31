@@ -9,10 +9,8 @@ export default class Card extends Component {
     render() {
         return (
             <section className="card">
-                <span className="fa-stack fa-4x">
-                    <i className="fas fa-square fa-stack-2x"></i>
-                    <Icon icon={ this.props.icon } brand={ this.props.brand }/>
-                </span>
+                <Icon icon={ this.props.icon } brand={ this.props.brand }/>
+                
                 <h3>{ this.props.title }</h3>
                 <p>{ this.props.body }</p>
                 <button>
