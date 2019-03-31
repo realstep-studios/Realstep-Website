@@ -4,6 +4,8 @@ html, body {
     font-family: Arial, Helvetica, Sans-serif;
     color: #424242;
     background-color: #FAFAFA;
+    width: 100vw;
+    height: 100vw;
 }
 
 *,
