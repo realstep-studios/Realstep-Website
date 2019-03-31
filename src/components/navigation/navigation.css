@@ -1,0 +1,17 @@
+.navigation {
+    width: 100vw;
+    background-color: #2196F3;
+    color: #ffffff;
+    display: block;
+}
+
+.navigation a {
+    color: #ffffff;
+    padding: 1em 2em;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    background-color: #1565C0;
+}

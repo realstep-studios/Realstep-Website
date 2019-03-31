@@ -1,0 +1,18 @@
+footer {
+    width: 100vw;
+    margin: 0;
+    padding: 1em;
+    background-color: #37474F;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5em;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}

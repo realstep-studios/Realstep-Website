@@ -1,0 +1,31 @@
+.card {
+    width: 80vw;
+    text-align: center;
+    margin: 0 auto;
+    padding: .5em;
+    box-shadow: 0 2px 10px 1px #BDBDBD;
+    border-radius: 4px;
+    margin-bottom: 1em;
+}
+
+.card button {
+    background-color: transparent;
+    border: none;
+    margin: 1em;
+    outline: none;
+}
+
+.card button a {
+    border: none;
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 1em 4em;
+    outline: none;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.card button a:hover {
+    background-color: #2E7D32;
+    cursor: pointer;
+}
