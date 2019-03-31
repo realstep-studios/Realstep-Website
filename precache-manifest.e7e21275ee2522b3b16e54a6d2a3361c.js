@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "963333db27aa4f35f230",
-    "url": "/Realstep-Website/static/css/main.9b5ecacc.chunk.css"
+    "revision": "589fa1ce7944f6287f11",
+    "url": "/Realstep-Website/static/css/main.92942f11.chunk.css"
   },
   {
-    "revision": "963333db27aa4f35f230",
-    "url": "/Realstep-Website/static/js/main.98afc3a5.chunk.js"
+    "revision": "589fa1ce7944f6287f11",
+    "url": "/Realstep-Website/static/js/main.9a43374e.chunk.js"
   },
   {
     "revision": "1790931a762c2fc4ba83",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/Realstep-Website/static/js/2.f611df06.chunk.js"
   },
   {
-    "revision": "14786751b48474f5c534b9d184f9f7b2",
+    "revision": "818ec93c6e7e969bf21c1cc431194b6b",
     "url": "/Realstep-Website/index.html"
   }
 ];
