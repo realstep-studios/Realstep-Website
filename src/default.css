@@ -12,6 +12,12 @@ html, body {
     box-sizing: border-box;
 }
 
+
+/* Pemament fix for overflowing elements */
+#root {
+    overflow-x: hidden; 
+}
+
 /* Main Styled Elements */
 
 code {
