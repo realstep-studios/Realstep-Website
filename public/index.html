@@ -17,6 +17,16 @@
       }
       gtag('js', new Date());
       gtag('config', 'UA-75997847-7');
+      
+      //Page loading performance
+      if (window.performance) {
+        var timeSincePageLoad = Math.round(performance.now());
+        gtag('event', 'timing_complete', {
+          'name': 'load',
+          'value': timeSincePageLoad,
+          'event_category': 'JS Dependencies'
+        });
+      }
     </script>  
   </head>
   <body>
